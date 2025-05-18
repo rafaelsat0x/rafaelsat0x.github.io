@@ -1,0 +1,90 @@
+body {
+    background-image: url('../images/galaxy.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: white;
+}
+
+.topbar {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background-color: rgba(31, 13, 40, 0.5);
+    font-family: 'Ubuntu', arial, sans-serif;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.topbar-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.8em;
+    margin-left: auto;
+    margin-right: 30px;
+    font-family: inherit;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Ubuntu', arial, sans-serif;
+    transition: color 0.4s ease;
+}
+
+.topbar-link:hover {
+    color: #c299fc;
+    text-decoration: underline;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.element {
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 45px;
+    gap: 16px;
+    background-color: rgba(31, 13, 40, 0.5);
+    font-family: 'Ubuntu', arial, sans-serif;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 15px;
+}
+
+.exe {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.exe a {
+    color: white;
+    transition: color 0.4s ease;
+}
+
+.exe a:hover {
+    color: #c299fc;
+    text-decoration: underline;
+}
+
+.winget, .exe p {
+    font-size: 1.3em;
+}
+
+.winget {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.winget p {
+    margin: 0;
+}
+
+.winget code {
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 2px 8px;
+}
